@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2019, 12:35:56 PM
+    Author     : NGO KIAN HEE
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: auto;
+    background-color:#f2f7ff;
+}
+.formCenter{
+   margin-top:10px;
+   margin-left:auto;
+   margin-right:auto;
+   width:35%;
+   border: 3px solid #afa0a4;  
+}
+
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #a81c41;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #eda1b5;
+    color: #000;
+}
+
+
+.formCenter a{
+    text-decoration:none;
+    color:black;
+}
+.formCenter a:hover{
+    color:#ef9723;
+}
+.modifyButton{
+    text-decoration:none;
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 13px 17px;
+    background: #a81c41;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.modifyButton:hover{
+    cursor: pointer;
+    background: #eda1b5;
+    color: #000;
+}
+form , .title , .report {
+    padding-left:20px;
+   
+}
+.displayOrders h1{
+    padding-left:50px;
+}
+.displayOrders p{
+    padding-left:50px;
+}
+.displayMeals{
+    padding-left:20px;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-bottom:black 3px solid;
+}
+ .tableDesign {
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:20px;
+     border:2.5px solid #afa0a4;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header h1 {
+  float: left;
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 20px;
+  
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  padding-top:10px;
+  float: right;
+  padding-right:35px;
+  padding-bottom:20px;
+}
+.navBar{
+  background-color:#eff2f7;
+}
+.navBar a{
+   
+    color:captiontext;
+    text-align:center;
+    padding-left:12px;
+    padding-right:12px;
+    margin-bottom: 10px;
+    text-decoration:none;
+    font-size: 20px;
+}
+.navBar a:hover{
+    background-color:#e5bcbc;
+    color:black;
+}
+.navBar a.active{
+    background-color:#827f7f;
+    color:#ffffff;
+}
+footer{
+    padding-bottom:3px;
+    background-color:black;
+    border-top:black 3px solid;
+    width:100%;
+    
+}
+footer p{
+    text-align:center;
+    color:white;
+    width: 100%;
+}
